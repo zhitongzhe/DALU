@@ -1,0 +1,30 @@
+/**index.wxss**/
+.title {
+  background: black;
+  color: white;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+}
+.xm{
+  display: inline-block;
+  width: 33%;
+  margin: 10px 0;
+}
+.xm .small-xm{
+  margin: 0 auto;
+  color: pink;
+  width: 60px;
+  height: 60px;
+  text-align:center;
+}
+.xm image{
+display:block;
+width:35px;
+height:35px;
+  border:1px solid pink;
+  border-radius: 50%;
+text-align:center;
+margin:0 auto;
+
+}

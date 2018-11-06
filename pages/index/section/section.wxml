@@ -1,0 +1,5 @@
+<!--pages/index/section/section.wxml-->
+<template name="a">
+  <image src='{{url}}'></image>
+  <text>{{text}}</text>
+</template>
