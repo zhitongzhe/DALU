@@ -1,5 +1,18 @@
 <!--pages/index/section/section.wxml-->
-<template name="a">
-  <image src='{{url}}'></image>
-  <text>{{text}}</text>
+<template name="item">
+  <view class='item'>
+    <image class='item_img' src='{{url}}'></image>
+    <text>{{text}}</text>
+  </view>
+  <scroll-view scroll-x>
+  <view wx:for="{{item}}" class='scroll'>
+  <image src='{{item.img}}' class='scroll_img'></image>
+  <view>{{item.name}}</view>
+  <text class='left new'>￥{{item.price}}</text>
+  <text class='right old'>{{item.free}}</text>
+  </view> 
+   <view class='scroll'>
+    <view class='more'>查看更多</view>
+  </view>  
+  </scroll-view>
 </template>

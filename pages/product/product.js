@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    array:[
+      '美甲', '美睫', '美发', '美容', '美体','医美'
+    ],
+    price:['从高到低','从低到高'],
+    index:0,
+    priceindex:0
   },
 
   /**
@@ -62,5 +67,15 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  bindPickerChange: function(e){
+    this.setData({
+      index: e.detail.value
+    })
+  },
+  bindPickerChange1: function (e) {
+    this.setData({
+      priceindex: e.detail.value
+    })
   }
 })

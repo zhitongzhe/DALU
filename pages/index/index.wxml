@@ -17,7 +17,7 @@
   <view class='xm'><view class="small-xm"><image src='../../img/2.png'></image> 医美</view></view>    
 </view>
 <import src="./section/section.wxml"/>
-<view wx:for="{{itemlist}}">
-  <template is="a" data="{{...item}}"/>
+<view wx:for="{{itemlist}}" style='overflow:hidden;white-space:nowrap;'>
+  <template is="item" data="{{...item}}"/>
 </view>
 

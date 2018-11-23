@@ -1,2 +1,29 @@
 <!--pages/product.wxml-->
-<text>产品</text>
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      {{array[index]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <picker bindchange="bindPickerChange1" value="{{index}}" range="{{price}}">
+    <view class="picker">
+      {{price[priceindex]}} 
+    </view>
+  </picker>
+</view>
+<view class='product_box'>
+<image src='../../img/1.png' class='product_img'></image>
+<view class='name'>钻石美甲</view>
+<view class='info'>6666666666666666666</view>
+<text class='left new'>￥160</text>
+<text class='right old'>120</text>
+</view>
+<view class='product_box'>
+<image src='../../img/1.png' class='product_img'></image>
+<view class='name'>钻石美甲</view>
+<view class='info'>6666666666666666666</view>
+<text class='left new'>￥160</text>
+<text class='right old'>120</text>
+</view>

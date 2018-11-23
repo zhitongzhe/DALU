@@ -15,10 +15,29 @@ Page({
     interval: 3000,
     duration: 500,
     itemlist: [
-      { url: '../../img/3.png', text: 1 },
-      { url: '../../img/3.png', text: 2 },
-      { url: '../../img/3.png', text: 3 },
-      { url: '../../img/3.png', text: 4 },
+      { 
+        url: '../../img/img.jpg', text: '美甲', 
+      item: [{ name: '美甲1', price: 120, free: 160,img:'../../img/img.jpg' },
+       { name: '美甲2', price: 120, free: 160,img:'../../img/img.jpg' },
+       { name: '美甲3', price: 120, free: 160,img:'../../img/img.jpg' },
+       { name: '美甲4', price: 120, free: 160,img:'../../img/img.jpg' }] },
+      {
+        url: '../../img/img.jpg', text: '美睫',
+        item: [{ name: '美甲1', price: 120, free: 160, img: '../../img/img.jpg' },
+        { name: '美甲2', price: 120, free: 160, img: '../../img/img.jpg' },
+        { name: '美甲3', price: 120, free: 160, img: '../../img/img.jpg' },
+        { name: '美甲4', price: 120, free: 160, img: '../../img/img.jpg' }]
+         },
+      { url: '../../img/img.jpg', text: '美发',
+      item: [{ name: '美甲1', price: 120, free: 160, img: '../../img/img.jpg' },
+        { name: '美甲2', price: 120, free: 160, img: '../../img/img.jpg' },
+        { name: '美甲3', price: 120, free: 160, img: '../../img/img.jpg' },
+        { name: '美甲4', price: 120, free: 160, img: '../../img/img.jpg' }] },
+      { url: '../../img/img.jpg', text: '美容',
+        item: [{ name: '美甲1', price: 120, free: 160, img: '../../img/img.jpg' },
+        { name: '美甲2', price: 120, free: 160, img: '../../img/img.jpg' },
+        { name: '美甲3', price: 120, free: 160, img: '../../img/img.jpg' },
+        { name: '美甲4', price: 120, free: 160, img: '../../img/img.jpg' }]},
     ]
   },
 })

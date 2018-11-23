@@ -8,3 +8,111 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+page{
+  margin: 0;
+  padding:0;
+}
+/**index.wxss**/
+.title {
+  background: black;
+  color: white;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+}
+.xm {
+  display: inline-block;
+  width: 33%;
+  margin: 10px 0;
+}
+
+.xm .small-xm {
+  margin: 0 auto;
+  color: pink;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.xm image {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border: 1px solid pink;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.item_img{
+  width:100%;
+  height:150px;
+  vertical-align: top;
+}
+.item{
+  position: relative;
+}
+.item text{
+  position: absolute;
+  width: 100%;
+  background:rgba(	112,128,144,0.4);
+  color:white;
+  text-align: left;
+  z-index: 1;
+  display: block;
+  bottom: 0;
+  height: 30px;
+  line-height: 30px；
+}
+.scroll{
+  width:90px;
+  display: inline-block;
+  margin: 0 2px;
+  height: auto;
+  font-size: 12px;
+  vertical-align: top;
+}
+.more{
+  width: 90px;
+  height: 90px;
+  background: gray;
+  color: white;
+  text-align: center;
+  line-height: 90px
+}
+.scroll_img{
+  height: 90px;
+  width: 90px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.new{
+  font-size: 14px;
+  color: pink;
+}
+.old{
+  color: gray;
+  text-decoration: line-through;
+}
+.section{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  border:1px solid pink;
+}
+.product_box{
+  display:inline-block;
+  width:40%; 
+  margin:5%;
+}
+.product_box image,.product_box view{
+  width: 100%;
+  white-space:pre-line;
+  word-break:break-all;  
+}
+
+
